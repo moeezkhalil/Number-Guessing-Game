@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    background-image: linear-gradient(to right,#d4fc79, #96e6a1, #a1c4fd);
+    overflow: hidden;
+}
+/* main container code */
+.container{
+    background-image: linear-gradient(to left,#d5fc794a, #96e6a12f, #a1c4fd32);
+    box-shadow: 0px 5px 17px rgb(2, 101, 2);
+    width: 300px;
+    padding: 25px 70px;
+    border-radius: 10px;
+    border: 2px dashed green;
+}
+
+/* text code */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: green;
+    text-shadow: 0px 5px 7px greenyellow;
+}
+p{
+  position: relative;
+    top: 10px;  
+    color: rgb(85, 84, 84);
+    font-size: 18px;
+}
+
+/* input code */
+input{
+    position: relative;
+    margin-top: 30px;
+    padding: 8px 55px;
+    border-radius: 5px;
+   border: none;
+}
+input:focus-within{
+    border: 3px solid greenyellow;
+    box-shadow: 0px 5px 8px green;
+}
+
+/* buttons code */
+#restart{
+    display: none;
+    background-color: peru;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    box-shadow: 0px 8px 10px peachpuff;
+    transition: all 1s;
+}
+#restart:hover{
+    background-color: rgb(167, 105, 43);
+    cursor: pointer;
+}
+
+#check{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #25be3a;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 8px 10px palegreen;
+    transition: all 1s;
+}
+#check:hover{
+    background-color: #0b941dfb;
+    cursor: pointer;
+}
+#result{
+    margin-top: 17px;
+}
